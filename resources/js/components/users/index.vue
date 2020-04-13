@@ -5,12 +5,12 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0 text-dark">Dashboard</h1>
+                    <h1 class="m-0 text-dark">Users Management</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active">Dashboard</li>
+                    <li class="breadcrumb-item active">Users</li>
                     </ol>
                 </div><!-- /.col -->
                 </div><!-- /.row -->
@@ -18,16 +18,15 @@
         </div>
         <!-- /.content-header -->
         <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header">Dashboard Component</div>
-
-                    <div class="card-body">
-                        This is a Dashboard Component
+            <div class="col-md-10">
+                <div class="card shadow-sm">
+                    <div class="card-header">
+                        Users
                     </div>
                 </div>
             </div>
         </div>
+        
     </div>
 </template>
 
