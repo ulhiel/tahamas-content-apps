@@ -77,12 +77,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <router-link to="/" class="nav-link">
                     <i class="fas fa-columns"></i>
                     <p>
                     Dashboard
                     </p>
-                </a>
+                </router-link>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link">
@@ -110,12 +110,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <router-link to="/rubrik" class="nav-link">
                     <i class="fas fa-newspaper"></i>
                     <p>
                     Rubrik
                     </p>
-                </a>
+                </router-link>
             </li>
         </ul>
       </nav>

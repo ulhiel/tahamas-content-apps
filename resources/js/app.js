@@ -14,7 +14,8 @@ Vue.use(VueRouter)
 //Vue Router
 
 let routes = [
-    {path: '/', component: require('./components/dashboard/main.vue').default }
+    {path: '/', component: require('./components/dashboard/main.vue').default },
+    {path: '/rubrik', component: require('./components/rubrik/index.vue').default}
 ]
 
 /**
@@ -38,6 +39,7 @@ Vue.component('main-dashboard', require('./components/dashboard/main.vue').defau
  */
 
 const router = new VueRouter({
+    mode: 'history',
     routes
 })
 
