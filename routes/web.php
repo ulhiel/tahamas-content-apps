@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//This line of code makes history mode on vue router works
+/*This line of code makes history mode on vue router works
 if ( ! request()->ajax() ) {
     Route::get('/{vue?}', 'HomeController@index')->where('vue', '[\/\w\.-]*');
-}
+}*/
 
 Route::get('/', function () {
     return view('welcome');
@@ -27,5 +27,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
-Route::get('{path}', 'HomeController@index')->where( 'path', '([A-z\d-\/_.]+)?' );
+Route::get('/{vue_capture?}', function () {
+    return view('home');
+  })->where('vue_capture', '[\/\w\.-]*');
